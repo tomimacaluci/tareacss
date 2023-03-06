@@ -1,0 +1,58 @@
+/*.foto1{
+    position: relative;
+    border-top-style: 10px;
+    border-right-style: 30px;
+    border-bottom-style: 30px;
+    border-left-style: 30px;
+    padding-top: 1px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+#foto3{
+    position: absolute;
+    border-top-style: 10px;
+    border-right-style: 30px;
+    border-bottom-style: 30px;
+    border-left-style: 30px;
+    padding-top: 1px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}*/
+.grid-layout{
+   display: grid;
+   height: 800px;
+   width: 800px;
+   margin-left: 500px;
+   position: sticky;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 35px;
+    
+}
+
+.card{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.tit1{
+    display: grid;
+    text-align: center;
+    background-color: yellow;
+    grid-area: head;
+}
+.fondotienda{
+    background: url(../money1.jpg);
+    height: 100%;
+    width: 100%;
+}
+#img{
+  margin-left: 150px;
+}
